@@ -22,7 +22,7 @@
 
 \definecolor{t4v_white}{HTML}{ECECEC}
 \definecolor{t4v_purple}{HTML}{533BC8}
-\definecolor{teal}{HTML}{008080}
+\definecolor{teal}{HTML}{409285}
 
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT

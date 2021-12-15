@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  15 DEC 2021 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  15 DEC 2021 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -773,13 +773,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
 Here is how much of TeX's memory you used:
  20464 strings out of 480608
  405220 string characters out of 5903630
- 663892 words of memory out of 5000000
+ 663910 words of memory out of 5000000
  35933 multiletter control sequences out of 15000+600000
  617839 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,8n,71p,479b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on /Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.pdf (1 page, 653698 bytes).
+Output written on /Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.pdf (1 page, 160635 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
