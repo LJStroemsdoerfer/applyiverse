@@ -18,11 +18,11 @@ edit_uri: ''
 plugins:
 - search
 nav:
-- Home: presentation/docs/index.md
-- Proposition: presentation/docs/content/proposition.md
-- Experience: presentation/docs/content/experience.md
-- Challenges: presentation/docs/content/challenges.md
-- Solution: presentation/docs/content/solution.md
+- Home: /presentation/docs/index.md
+- Proposition: /presentation/docs/content/proposition.md
+- Experience: /presentation/docs/content/experience.md
+- Challenges: /presentation/docs/content/challenges.md
+- Solution: /presentation/docs/content/solution.md
 markdown_extensions:
 - toc:
     permalink: true
