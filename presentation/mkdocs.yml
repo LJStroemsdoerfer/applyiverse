@@ -9,8 +9,8 @@ theme:
     accent: teal
   icon:
     repo: fontawesome/brands/github-alt
-  logo: img/logo.png
-  favicon: img/logo.png
+  logo: presentation/docs/img/logo.png
+  favicon: presentation/docs/img/logo.png
   language: en
 repo_name: LJStroemsdoerfer/applyiverse
 repo_url: https://github.com/LJStroemsdoerfer/applyiverse.git
@@ -18,11 +18,11 @@ edit_uri: ''
 plugins:
 - search
 nav:
-- Home: index.md
-- Proposition: content/proposition.md
-- Experience: content/experience.md
-- Challenges: content/challenges.md
-- Solution: content/solution.md
+- Home: presentation/docs/index.md
+- Proposition: presentation/docs/content/proposition.md
+- Experience: presentation/docs/content/experience.md
+- Challenges: presentation/docs/content/challenges.md
+- Solution: presentation/docs/content/solution.md
 markdown_extensions:
 - toc:
     permalink: true
