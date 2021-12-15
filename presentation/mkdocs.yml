@@ -9,7 +9,6 @@ theme:
     accent: teal
   icon:
     repo: fontawesome/brands/github-alt
-  logo: /presentation/docs/img/logo.png
   favicon: /presentation/docs/img/logo.png
   language: en
 repo_name: LJStroemsdoerfer/applyiverse
