@@ -16,6 +16,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: publish website to GitHub Pages
+    needs: update-readme-with-blog
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
