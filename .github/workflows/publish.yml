@@ -13,6 +13,10 @@ jobs:
         with:
           feed_list: "https://medium.com/feed/@ljstroemsdoerfer"
           readme_path: presentation/docs/index.md
+      - run: |
+          git commit -m "updated blog post"
+          git push origin main
+    
   deploy:
     runs-on: ubuntu-latest
     name: publish website to GitHub Pages
