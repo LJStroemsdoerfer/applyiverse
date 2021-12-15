@@ -1,0 +1,50 @@
+site_name: Lukas Jan Stroemsdoerfer
+site_description: My Interview Presentation
+site_url: https://test.com/
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: teal
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/logo.png
+  favicon: img/logo.png
+  language: en
+repo_name: LJStroemsdoerfer/applyiverse
+repo_url: https://github.com/LJStroemsdoerfer/applyiverse.git
+edit_uri: ''
+plugins:
+- search
+nav:
+- Home: index.md
+- Proposition: content/proposition.md
+- Experience: content/experience.md
+- Challenges: content/challenges.md
+- Solution: content/solution.md
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: true
+- markdown_include.include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_div_format ''
+- pymdownx.tabbed
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/LJStroemsdoerfer
+extra_css:
+- css/main.css
+extra_javascript:
+- https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js
+- js/main.js
