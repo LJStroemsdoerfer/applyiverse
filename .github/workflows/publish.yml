@@ -1,0 +1,17 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: [ self-hosted ]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - run: pip install mkdocs-material
+      - run: pip install markdown-include
+      - run: pip install mkdocs-markdownextradata-plugin
+      - run: mkdocs gh-deploy --force
