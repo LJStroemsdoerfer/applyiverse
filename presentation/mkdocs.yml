@@ -12,6 +12,8 @@ theme:
   logo: /presentation/docs/img/logo.png
   favicon: /presentation/docs/img/logo.png
   language: en
+  features:
+    - toc.integrate
 repo_name: LJStroemsdoerfer/applyiverse
 repo_url: https://github.com/LJStroemsdoerfer/applyiverse.git
 edit_uri: ''
