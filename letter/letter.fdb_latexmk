@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1639574315 "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.tex" "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.pdf" "letter" 1639574317
+["pdflatex"] 1639574315 "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.tex" "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.pdf" "letter" 1639584988
   "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.aux" 1639574317 705 19588529e67f28affb1cd7c0549fb4e8 ""
   "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.tex" 1639574309 1648 a5b98bb84786ce1f2dc2e8e9e97a48a6 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -180,9 +180,9 @@
   "letter.out" 1639574316 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "letter.tex" 1639574309 1648 a5b98bb84786ce1f2dc2e8e9e97a48a6 ""
   (generated)
-  "letter.aux"
+  "letter.log"
   "letter.out"
   "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.log"
-  "letter.pdf"
-  "letter.log"
   "/Users/lukasstroemsdoerfer/Projects/applyiverse/letter/letter.pdf"
+  "letter.pdf"
+  "letter.aux"
