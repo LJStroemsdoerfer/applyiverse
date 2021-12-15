@@ -1,0 +1,106 @@
+\documentclass[8pt]{developercv} 
+
+\usepackage{xcolor}
+
+\definecolor{t4v_white}{HTML}{ECECEC}
+\definecolor{t4v_purple}{HTML}{563F76}
+\definecolor{teal}{HTML}{008080}
+%533BC8
+%563F76
+%71487A
+
+\usepackage{background}
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=1,
+contents={\includegraphics[width=\paperwidth,height=\paperheight]{Background}}
+}
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{t4v_white}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{minipage}[t]{0.725\textwidth} 
+	\vspace{-\baselineskip}
+	\colorbox{teal}{{\HUGE\textcolor{t4v_white}{\textbf{\MakeUppercase{First Name}}}}}
+	
+	\colorbox{teal}{{\HUGE\textcolor{t4v_white}{\textbf{\MakeUppercase{Last Name}}}}} 
+	
+	\vspace{6pt}
+	
+	{\large a catchy line that describes your value proposition} 
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} 
+	\vspace{-\baselineskip}
+	\icon{MapMarker}{12}{your address}\\
+	\icon{Phone}{12}{your phone number}\\
+	\icon{Github}{12}{{\href{https://github.com/LJStroemsdoerfer}{LJStroemsdoerfer}}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{About me}
+
+\begin{minipage}[t]{0.4\textwidth} 
+	\vspace{-\baselineskip}
+	
+I am a tech expert with experience in creating value with Machine Learning applications. Throughout my career I always built stuff such as this repo to help my fellow Data Scientists.\\
+\\
+As the amazing person I am, there is a lot of other fancy stuff I am doing and that is so killer that you should seriously give me that job.
+	
+\end{minipage}
+\hfill 
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} 
+	\begin{barchart}{5.5}
+		\baritem{Programming}{100}
+		\baritem{Machine Learning}{95}
+		\baritem{DevOps}{95}
+		\baritem{Infrastructure}{85}
+		\baritem{Architecture}{80}
+		\baritem{Security}{80}
+	\end{barchart}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2021 -- today}
+		{my job}
+		{\textcolor{t4v_white}{my company}}
+		{I doing some super cool stuff and I mainly \textbf{enable} others to do amazing stuff as well. \\ \texttt{Docker}\slashsep\texttt{Azure}\slashsep\texttt{Python}\slashsep\texttt{GitHub}\slashsep\texttt{Bash}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2016}
+		{Master's Degree}
+		{\textcolor{t4v_white}{Unversity of Awesomeness}}
+		{I graduated with a master's degree in amazing shit and I finished that first in class.}
+\end{entrylist}
+\end{document}

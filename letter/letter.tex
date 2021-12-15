@@ -1,0 +1,68 @@
+\documentclass[8pt]{developercv} 
+
+\usepackage{background}
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=1,
+contents={\includegraphics[width=\paperwidth,height=\paperheight]{Background}}
+}
+
+\usepackage{xcolor}
+
+\definecolor{t4v_white}{HTML}{ECECEC}
+\definecolor{t4v_purple}{HTML}{563F76}
+\definecolor{teal}{HTML}{008080}
+%533BC8
+%563F76
+%71487A
+
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+\AtBeginDocument{\globalcolor{t4v_white}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{minipage}[t]{0.725\textwidth} 
+	\vspace{-\baselineskip}
+	\colorbox{teal}{{\HUGE\textcolor{t4v_white}{\textbf{\MakeUppercase{First Name}}}}}
+	
+	\colorbox{teal}{{\HUGE\textcolor{t4v_white}{\textbf{\MakeUppercase{Last Name}}}}} 
+	
+	\vspace{6pt}
+	
+	{\large a catchy line that describes your value proposition} 
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} 
+	\vspace{-\baselineskip}
+	\icon{MapMarker}{12}{your address}\\
+	\icon{Phone}{12}{your phone number}\\
+	\icon{Github}{12}{{\href{https://github.com/LJStroemsdoerfer}{LJStroemsdoerfer}}}\\
+\end{minipage}
+
+\vspace{3cm}
+
+\LARGE
+
+Dear person you are applying to,\\
+\\
+\\
+what ever you are doing and you need this position for is super difficult, but important. I am here to help you, therefore I am applying as
+\begin{center}
+\colorbox{teal}{{\textcolor{t4v_white}{\textit{{name of the position}}}}}
+\end{center}
+in your department.\\
+\\
+Data Science is a novel field, but I am amazing and I am gonna help you in various ways.
+\\
+\\
+Your sincerely,\\
+Your Name
+
+\end{document}
