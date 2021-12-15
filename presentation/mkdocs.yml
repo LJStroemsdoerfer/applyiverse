@@ -20,12 +20,9 @@ plugins:
 nav:
 - Home: index.md
 - Proposition: content/proposition.md
-- Experience: content/experience.md
 - Challenges: content/challenges.md
 - Solution: content/solution.md
 markdown_extensions:
-- toc:
-    permalink: true
 - markdown.extensions.codehilite:
     guess_lang: true
 - markdown_include.include:
