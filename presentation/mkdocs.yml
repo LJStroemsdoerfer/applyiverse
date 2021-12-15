@@ -23,6 +23,8 @@ nav:
 - Challenges: content/challenges.md
 - Solution: content/solution.md
 markdown_extensions:
+- toc:
+    permalink: false
 - markdown.extensions.codehilite:
     guess_lang: true
 - markdown_include.include:
