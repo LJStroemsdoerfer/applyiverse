@@ -21,6 +21,7 @@ plugins:
 nav:
 - Home: index.md
 - Proposition: content/proposition.md
+- Challenges: content/challenges.md
 markdown_extensions:
 - toc:
     permalink: false
