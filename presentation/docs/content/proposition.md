@@ -9,9 +9,6 @@ th {
   margin-left: auto;
   margin-right: auto;
 }
-table {
-    border: none;
-    }
 </style>
 
 # What do I bring to the table?
