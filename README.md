@@ -1,9 +1,9 @@
 # 👋 - this is the applyiverse
 
 ***
-<center>
+<p align="center">
 <i>''I fucking hate applying to jobs, it's super tedious and no fun at all.'' <br> - most people at some point </i>
-</center>
+</p>
 
 ***
 
