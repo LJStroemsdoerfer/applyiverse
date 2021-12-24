@@ -28,7 +28,7 @@ jobs:
           while IFS= read -r file
           do
             echo $file
-            if [[ $file != presentation/* ]]; then
+            if [[ $file != interview/* ]]; then
               echo "This modified file is not under the 'interview' folder."
               echo "::set-output name=run_job::false"
               break
