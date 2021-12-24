@@ -6,7 +6,7 @@ import interviewer
 current_version = interviewer.__version__
 
 # read in README.md
-with open("description.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 # define the setup

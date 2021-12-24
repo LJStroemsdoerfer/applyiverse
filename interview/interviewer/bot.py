@@ -1,11 +1,17 @@
 """
 bot.py contains the main class interviewer. Per default the questions are gathered
 from interviewer/questions.txt. However, users can provide their own custom questions.
+
+Slots:
+--------
+questions : list
+    list of all questions provided
+summary: dict
+    dict of all your questions and the time it took to answer them
 """
 
 # import libs
 import random
-import os
 import time
 import pprint
 
@@ -14,6 +20,19 @@ class interviewer:
 
     # define the class object
     def __init__(self, questions_file=None):
+
+        """
+        Initialization of the class
+
+        This functions inits the class and already loads the questions. Either
+        the default ones or the custom ones you provide via a file path to your
+        text file.
+
+        Parameters:
+        -----------
+        questions_file : string
+            path to the .txt file that stores your questions
+        """
 
         # if no question file is provided load the default
         if questions_file is None:
@@ -35,6 +54,13 @@ class interviewer:
 
     # main method for questions
     def start(self):
+
+        """
+        Main method to start the mock interview
+
+        This function runs through the questions provided in your question file,
+        prints them out and stores the time it takes you to answer.
+        """
 
         # construct the message
         msg_text = """
@@ -109,6 +135,13 @@ class interviewer:
     
     # main function to analyze
     def analyze(self):
+
+        """
+        Main method to analyze the mock interview
+
+        This function provides an overview of all questions asked and the time
+        it took to answer them.
+        """
 
         # pretty print the summary
         pprint.pprint(self.summary)
