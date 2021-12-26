@@ -57,5 +57,6 @@ jobs:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
-        python interview/setup.py sdist bdist_wheel
+        cd interview
+        python setup.py sdist bdist_wheel
         twine upload dist/*
