@@ -6,3 +6,4 @@ What was your biggest challenge so far?
 What are the main challenges leading a data science team?
 How would you adress retention in your team?
 What challenges could arise from fixing on a toolset for your team?
+How would you handle disagreement within your team?
