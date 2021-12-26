@@ -3,3 +3,4 @@ Why do you want to be a leader?
 What are your strength?
 What are your weaknesses?
 What was your biggest challenge so far?
+What are the main challenges leading a data science team?
