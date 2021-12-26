@@ -21,6 +21,7 @@ plugins:
 - mkdocs-jupyter:
     theme: dark
     kernel_name: python3
+    execute: True
 nav:
 - Home: index.md
 - Proposition: content/proposition.md
