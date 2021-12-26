@@ -18,10 +18,14 @@ repo_url: https://github.com/LJStroemsdoerfer/applyiverse.git
 edit_uri: ''
 plugins:
 - search
+- mkdocs-jupyter
+    theme: dark
+    kernel_name: python3
 nav:
 - Home: index.md
 - Proposition: content/proposition.md
 - Challenges: content/challenges.md
+- Showcase: content/showcase.ipynb
 markdown_extensions:
 - toc:
     permalink: false
