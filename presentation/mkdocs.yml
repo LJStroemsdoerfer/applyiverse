@@ -20,7 +20,6 @@ plugins:
 - search
 - mkdocs-jupyter:
     theme: dark
-    execute: True
 nav:
 - Home: index.md
 - Proposition: content/proposition.md
