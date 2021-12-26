@@ -18,7 +18,7 @@ repo_url: https://github.com/LJStroemsdoerfer/applyiverse.git
 edit_uri: ''
 plugins:
 - search
-- mkdocs-jupyter
+- mkdocs-jupyter:
     theme: dark
     kernel_name: python3
 nav:
