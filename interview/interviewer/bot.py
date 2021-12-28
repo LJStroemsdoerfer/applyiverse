@@ -38,7 +38,7 @@ class interviewer:
         if questions_file is None:
 
             # store the questions
-            self.questions = open('interviewer/questions.txt').read().splitlines()
+            self.questions = open('questions.txt').read().splitlines()
 
         # if user provides question file
         else:
