@@ -29,7 +29,9 @@ So, let's go into detail and best start with the application.
 
 Hiring managers see tons of CVs and cover letters each day. So it can't hurt to have a visually appealing first introduction of yourself. I tweaked a super amazing <code>.tex</code> template by Jan Küster and Jan Vorisek a little and added it here. The originals can be found <a href="https://www.latextemplates.com/template/developer-cv">here</a>. 
 
-<img src="cv/preview.png" align="center" width=400>
+<p align="center">
+    <img src="cv/preview.png" width=500>
+</p>
 
 The cover letter follows a similar style guide. Feel free to adjust and tweak the style to your liking. You will find the entire code and resources in the subdirectories <code>cv</code> and <code>letter</code>.
 
@@ -37,7 +39,9 @@ The cover letter follows a similar style guide. Feel free to adjust and tweak th
 
 Depending on what kind of role your interviewing for, you will have different stages. Surely, you will have some interview questions and more often than not, you will have to face some sort of case study or present a showcase. Most often you are competing for a role, so again, standing out can be helpful. I like to code and build small things, so to be super authentic in an interview situation I decided to build a small website to present myself. The website is actually based on material mkdocs, which is a documentation framework for mostly python libraries, but hey, I like it so what the heck. 
 
-<img src="presentation/docs/img/preview_website.png" align="center" width=400>
+<p align="center">
+    <img src="presentation/docs/img/preview_website.png" width=500>
+</p>
 
 In addition, I built a little showcase. It is a pretty simple one taking Bitcoin (EUR) and prediction the next days high. I built a little python library for this and a jupyter notebook to demo it. This is quite simple, but you can adjust it the way you see fit. The cool thing though, however, you decide, you can embed the <code>.ipynb</code> file into the website.
 
