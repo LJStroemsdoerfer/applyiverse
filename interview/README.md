@@ -16,8 +16,7 @@ simply load the class from the library.
 
     from interviewer import interviewer
 
-Next you can call the class and if you want to, provide a custom set of questions,
-via <code>.txt</code> file.
+Next you can call the class and provide your custom questions as a <code>.txt</code> file.
 
     my_mock_interview = interviewer(questions_file='path_to_my_questions/question_file.txt')
 

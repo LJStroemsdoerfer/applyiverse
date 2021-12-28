@@ -19,14 +19,13 @@ import pprint
 class interviewer:
 
     # define the class object
-    def __init__(self, questions_file=None):
+    def __init__(self, questions_file):
 
         """
         Initialization of the class
 
-        This functions inits the class and already loads the questions. Either
-        the default ones or the custom ones you provide via a file path to your
-        text file.
+        This functions inits the class and already loads the questions. You need
+        to provide a file path to your questions file.
 
         Parameters:
         -----------
@@ -34,17 +33,8 @@ class interviewer:
             path to the .txt file that stores your questions
         """
 
-        # if no question file is provided load the default
-        if questions_file is None:
-
-            # store the questions
-            self.questions = open('questions.txt').read().splitlines()
-
-        # if user provides question file
-        else:
-
-            # store the questions
-            self.questions = open(questions_file).read().splitlines()
+        # store the questions
+        self.questions = open(questions_file).read().splitlines()
 
         # random seed
         random.seed(10)
